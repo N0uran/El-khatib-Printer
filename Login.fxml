@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="elkhatib.LoginController">
+   <children>
+      <Label layoutX="249.0" layoutY="39.0" prefHeight="60.0" prefWidth="102.0" text="Elkhatib :)" textFill="#ee2967">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf_username" layoutX="53.0" layoutY="130.0" prefHeight="25.0" prefWidth="485.0" promptText="User Name" />
+      <PasswordField fx:id="pf_password" layoutX="55.0" layoutY="188.0" prefHeight="25.0" prefWidth="485.0" promptText="Password" />
+      <Button fx:id="b_login" layoutX="249.0" layoutY="254.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" text="Log in" />
+   </children>
+</AnchorPane>
